@@ -1,0 +1,87 @@
+# Enable AV1 (AOMedia Video 1 is an open, royalty-free video coding format designed for video transmissions over the Internet)
+ac_add_options NASM="c:/mozilla-build/nasm/nasm.exe"
+
+# Disable assertions in C++ and JavaScript
+ac_add_options --disable-debug
+ac_add_options --disable-debug-symbols
+
+# Disable building test libraries and programs
+ac_add_options --disable-tests
+
+# Enables default compiler optimization options
+ac_add_options --enable-optimize
+
+# Enable PGO (Profile-guided optimization)
+# ac_add_options MOZ_PGO=1
+
+# Enable jemalloc (memory allocator)
+ac_add_options --enable-jemalloc
+
+# Disable and hide Firefox Accounts And Sync
+mk_add_options MOZ_SERVICES_SYNC=0
+
+# Disable Telemetry and data collection (default-browser-agent.exe)
+ac_add_options --disable-default-browser-agent
+mk_add_options MOZ_SERVICES_HEALTHREPORT=0
+ac_add_options MOZ_DATA_REPORTING=0
+mk_add_options MOZ_TELEMETRY_REPORTING=0
+
+# Set telemetry option to "false" ("toolkit.telemetry.enabled" is locked to "true" on beta, aurora, nightly and default channels)
+ac_add_options --enable-update-channel=release
+
+# Set branding folder (/src/browser/branding/official/) and Distribution ID
+ac_add_options --enable-official-branding
+ac_add_options --with-distribution-id=io.github.muslayev
+
+# Disable Wi-Fi geolocation service
+ac_add_options --disable-necko-wifi
+
+# Disable built-in extensions from "/scr/extensions/" folder
+ac_add_options --disable-extensions
+
+# Enable sideloading extension support from "/browser/extensions/" folder
+ac_add_options --allow-addon-sideload
+
+# Disable scanning for global plugins, used to detect RealPlayer, Java, Antivirus, etc. [WINDOWS]
+ac_add_options --disable-system-extension-dirs
+
+# Disable Mozilla Maintenance Service (allows Firefox updates to occur in the background)
+ac_add_options --disable-maintenance-service
+
+# Disable Firefox Updater Application
+ac_add_options --disable-updater
+ac_add_options --disable-update-agent
+
+# Disable Crash Reporter Application
+ac_add_options --disable-crashreporter
+
+# Disable Parental Controls
+ac_add_options --disable-parental-controls
+
+# Disable all DRM (Digital Rights Management) content
+ac_add_options --disable-eme
+
+# Disable WebRTC (Real-Time Communications)
+ac_add_options --disable-webrtc
+
+# Disable Accessibility support
+ac_add_options --disable-accessibility
+
+# Disable Web Speech API
+# ac_add_options --disable-webspeech
+ac_add_options --disable-webspeechtestbackend
+
+# Disable speech recognition, part of the Web Speech API
+ac_add_options --disable-synth-speechd
+
+# Disable WebDriver API (used by automation engineers)
+ac_add_options --disable-geckodriver
+
+# Disable enforcing that add-ons are signed by the trusted root
+ac_add_options MOZ_REQUIRE_SIGNING=0
+
+# Disable JavaScript Performance Profiling with third-party applications (e.g. Shark, VTune)
+ac_add_options --disable-profiling
+
+# Disable Microsoft Background Intelligent Transfer Service (allows to download updates even if Firefox is closed)
+ac_add_options --disable-bits-download

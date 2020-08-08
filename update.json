@@ -1,0 +1,18 @@
+{
+ "Iceweasel": {
+  "win_x86-64": {
+   "en-US": {
+    "version": "79.0",
+    "url": "https://github.com/muslayev/iceweasel-win64/releases/download/v79.0/iceweasel-79.0.en-US.win64.installer.exe"
+   }
+  }
+ },
+ "IceCat": {
+  "win_x86-64": {
+   "en-US": {
+    "version": "68.10.0",
+    "url": "https://github.com/muslayev/icecat-win64/releases/download/v68.10.0/icecat-68.10.0.en-US.win64.installer.exe"
+   }
+  }
+ }
+}
