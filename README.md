@@ -10,6 +10,7 @@
 ### Changes
 - [LibreWolf settings](https://gitlab.com/librewolf-community/settings)
 - Build [options](https://github.com/muslayev/iceweasel-win64/blob/master/mozconfig)
+- Update extension
 - Iceweasel branding
 - User profile location *%USERPROFILE%\AppData\Roaming\Debian\Iceweasel*
 ### How to Update
