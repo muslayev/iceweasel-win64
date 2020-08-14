@@ -2,5 +2,5 @@
 2. Copy start.exe
 
 Folder structure:<br/>
-core/<br/>
-start.exe
+* core/<br/>
+* start.exe
