@@ -1,6 +1,6 @@
 1. Extract iceweasel-79.0.en-US.win64.installer with any archive manager
 2. Copy start.exe
 
-Folder structure:<br/>
+Folder structure:
 * core/<br/>
 * start.exe
