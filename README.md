@@ -4,7 +4,7 @@
   <a href="https://github.com/muslayev/iceweasel-win64/releases" target="_blank"><img src="https://img.shields.io/github/downloads/muslayev/iceweasel-win64/total.svg"></a>
 </p>
 
-# Unofficial Iceweasel builds for Windows x64
+# Iceweasel (Unofficial builds for Windows x64)
 ## Download
 [Releases](https://github.com/muslayev/iceweasel-win64/releases)<br />
 ### Changes
