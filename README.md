@@ -8,7 +8,6 @@
 ## Download
 [Releases](https://github.com/muslayev/iceweasel-win64/releases)<br />
 ### Changes
-- [LibreWolf settings](https://gitlab.com/librewolf-community/settings)
 - Build [options](https://github.com/muslayev/iceweasel-win64/blob/master/mozconfig)
 - Update extension
 - Iceweasel branding
