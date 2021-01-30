@@ -10,8 +10,8 @@
  "IceCat": {
   "win_x86-64": {
    "en-US": {
-    "version": "78.6.1",
-    "url": "https://github.com/muslayev/icecat-win64/releases/download/v78.6.1/icecat-78.6.1.en-US.win64.installer.exe"
+    "version": "78.7.0",
+    "url": "https://github.com/muslayev/icecat-win64/releases/download/v78.7.0/icecat-78.7.0.en-US.win64.installer.exe"
    }
   }
  }
